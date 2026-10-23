@@ -1,0 +1,32 @@
+{
+  "collection": "backend-e0595c2baf43",
+  "at": "2026-10-21T09:06:32.055378+00:00",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "macos": "27.0.1",
+  "cpu": "Apple M5",
+  "memory_bytes": 17179869184,
+  "logical_cpus": 10,
+  "node": "v22.23.3",
+  "docker": "{\"Client\":{\"Version\":\"29.8.2\",\"ApiVersion\":\"1.56\",\"DefaultAPIVersion\":\"1.56\",\"GitCommit\":\"7fc2dff\",\"GoVersion\":\"go1.26.8\",\"Os\":\"darwin\",\"Arch\":\"arm64\",\"BuildTime\":\"Wed Sep 30 19:32:03 2026\",\"Context\":\"desktop-linux\"},\"Server\":{\"Platform\":{\"Name\":\"Docker Desktop 4.94.0 (241994)\"},\"Version\":\"29.8.2\",\"ApiVersion\":\"1.56\",\"MinAPIVersion\":\"1.40\",\"Os\":\"linux\",\"Arch\":\"arm64\",\"Components\":[{\"Name\":\"Engine\",\"Version\":\"29.8.2\",\"Details\":{\"ApiVersion\":\"1.56\",\"Arch\":\"arm64\",\"BuildTime\":\"Wed Sep 30 19:31:50 2026\",\"Experimental\":\"false\",\"GitCommit\":\"8af9fe3\",\"GoVersion\":\"go1.26.8\",\"KernelVersion\":\"7.0.14-linuxkit\",\"MinAPIVersion\":\"1.40\",\"Module\":\"github.com/moby/moby/v2\",\"ModuleVersion\":\"v2.0.0+unknown\",\"Os\":\"linux\"}},{\"Name\":\"containerd\",\"Version\":\"v2.3.6\",\"Details\":{\"GitCommit\":\"ee2735368117d2eb259779949d5e75cdafec9761\"}},{\"Name\":\"runc\",\"Version\":\"1.5.1\",\"Details\":{\"GitCommit\":\"v1.5.1-0-g8f2685a4\"}},{\"Name\":\"docker-init\",\"Version\":\"0.19.0\",\"Details\":{\"GitCommit\":\"de40ad0\"}}],\"GitCommit\":\"8af9fe3\",\"GoVersion\":\"go1.26.8\",\"KernelVersion\":\"7.0.14-linuxkit\",\"BuildTime\":\"2026-09-30T19:31:50.000000000+00:00\"}}",
+  "vm": "10 8319504384",
+  "source_sha256": {
+    "Dockerfile": "844a4ffd608184215fcfe9b43de8bc72ffba98ce8c82dcde894c4ee0f6b1b38f",
+    "PROTOCOL.md": "5c74e7e49ab4f329ffa5397f40be107b3cd13e1276e5875a27e073883a796415",
+    "docker-compose.yml": "f2eaa6d95f80efc2afaf29f4ee0eabe59dd33f7fbb949901d6703f88d79a94d0",
+    "manifest.json": "d9104d3b8d827cda4c8164607c11fe9d1626be8fc48904ab9d0226b137fa7e1f",
+    "run.py": "48ec073262c31c71df6c75cfe9bd2942fadaa8a9da4a53411af3c8c224c48dfa",
+    "sql/global_keyset.sql": "66696ffd16bf12ed6ba33d4bb39a88cad1f4e34cdc1be73cfa3a1f38dd006cb8",
+    "sql/global_offset.sql": "54c7ad9848a55917296c62396bf480df2931500d0a63fec4b8b04737aa850200",
+    "sql/page_grouped_keyset.sql": "7edbd662281d413b76a43341800791475e797b882102034d80ba7a0583680fd8",
+    "sql/page_grouped_offset.sql": "72148a9f7c3ce64ad50f9361cf663516128738e5e57511b6a336cdf292ab22b3",
+    "sql/page_lateral_keyset.sql": "0cad6b42850a0c567f9eff5074faa0d5ad401287258762b1fc179df8405e70c0",
+    "sql/page_lateral_offset.sql": "6e23d3ca56a86510551b48d6b5b4284173ecd20e166eea9880b5eea89dab7eb2",
+    "src/plans.cjs": "4ece14a48b2dae828c588d4578abf71758990bd9494470efa8ce660c8b867a83",
+    "src/prepare.cjs": "4fe1a4f108e8756711a933413e23db2197e0ec82df32c2788091cc50c06e59a6",
+    "src/queries.cjs": "b0dcf0b735e15cb622d58613a673bda93b05d01304d507349eb34c842a7ae872",
+    "src/runner.mjs": "c04abff26894bded4078d93d99244481287de05385e6d0906294c5acf4412a71",
+    "src/server.cjs": "331e32f98ec58778a8501ed8d3b882d8a11375d2d392928fa2aaf80bed9dc7ef"
+  },
+  "dump_sha256": "4b1b76bd84ec97c8622d415c832776300d0e7fe7ff3ad5d487265ee90702dbf5",
+  "git_head": "12a4dc32b25b7b30baef879f08137b82ce0a574f"
+}

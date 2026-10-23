@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")/.."
+BACKEND_PYTHON="${BACKEND_PYTHON:-python3}"
+"$BACKEND_PYTHON" backend-study/run.py
+"$BACKEND_PYTHON" backend-study/analyze.py
+"$BACKEND_PYTHON" backend-study/manuscript/build.py

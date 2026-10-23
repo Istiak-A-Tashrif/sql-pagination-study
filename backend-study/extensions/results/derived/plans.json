@@ -1,0 +1,1826 @@
+[
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "global",
+      "offset",
+      "none",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 312,
+      "reviews": 150
+    },
+    "exec_ms": 1.949,
+    "hits": 480,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "global",
+      "keyset",
+      "known",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 312,
+      "reviews": 150
+    },
+    "exec_ms": 0.202,
+    "hits": 486,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "global",
+      "offset",
+      "none",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 50025,
+      "order_items": 500312,
+      "reviews": 300150
+    },
+    "exec_ms": 318.994,
+    "hits": 790205,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "global",
+      "keyset",
+      "known",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 500312,
+      "reviews": 300150
+    },
+    "exec_ms": 211.982,
+    "hits": 791129,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "global",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 100000,
+      "order_items": 950312,
+      "reviews": 600000
+    },
+    "exec_ms": 473.788,
+    "hits": 943183,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "global",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 950312,
+      "reviews": 570150
+    },
+    "exec_ms": 379.935,
+    "hits": 1501972,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_grouped",
+      "offset",
+      "none",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.361,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_grouped",
+      "keyset",
+      "known",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.222,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_grouped",
+      "offset",
+      "none",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 50025,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 4.038,
+    "hits": 1290,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_grouped",
+      "keyset",
+      "known",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.216,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_grouped",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 95025,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 8.087,
+    "hits": 1757,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_grouped",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.21,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_lateral",
+      "offset",
+      "none",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.222,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_lateral",
+      "keyset",
+      "known",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.188,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_lateral",
+      "offset",
+      "none",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 50025,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 3.51,
+    "hits": 1292,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_lateral",
+      "keyset",
+      "known",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.181,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_lateral",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 95025,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 6.367,
+    "hits": 1879,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E1_cursor",
+      "s100000",
+      "tuned",
+      "page_lateral",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.192,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "global",
+      "offset",
+      "none",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 21721,
+      "reviews": 2019
+    },
+    "exec_ms": 42.924,
+    "hits": 7123,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "global",
+      "offset",
+      "none",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 50025,
+      "order_items": 517856,
+      "reviews": 301548
+    },
+    "exec_ms": 423.507,
+    "hits": 797213,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "global",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 100000,
+      "order_items": 951636,
+      "reviews": 600000
+    },
+    "exec_ms": 563.978,
+    "hits": 933356,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "global",
+      "keyset",
+      "known",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 21721,
+      "reviews": 2019
+    },
+    "exec_ms": 7.354,
+    "hits": 8209,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "global",
+      "keyset",
+      "known",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 517856,
+      "reviews": 301548
+    },
+    "exec_ms": 288.952,
+    "hits": 797889,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "global",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 951636,
+      "reviews": 570275
+    },
+    "exec_ms": 548.044,
+    "hits": 1498127,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_grouped",
+      "offset",
+      "none",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 21700,
+      "reviews": 2025
+    },
+    "exec_ms": 9.844,
+    "hits": 8371,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_grouped",
+      "offset",
+      "none",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 50025,
+      "order_items": 200,
+      "reviews": 125
+    },
+    "exec_ms": 4.174,
+    "hits": 1292,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_grouped",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 95025,
+      "order_items": 200,
+      "reviews": 125
+    },
+    "exec_ms": 9.555,
+    "hits": 1854,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_grouped",
+      "keyset",
+      "known",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 21700,
+      "reviews": 2025
+    },
+    "exec_ms": 9.376,
+    "hits": 8371,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_grouped",
+      "keyset",
+      "known",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 200,
+      "reviews": 125
+    },
+    "exec_ms": 0.266,
+    "hits": 551,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_grouped",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 200,
+      "reviews": 125
+    },
+    "exec_ms": 0.282,
+    "hits": 555,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_lateral",
+      "offset",
+      "none",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 21700,
+      "reviews": 2025
+    },
+    "exec_ms": 7.196,
+    "hits": 8371,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_lateral",
+      "offset",
+      "none",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 50025,
+      "order_items": 200,
+      "reviews": 125
+    },
+    "exec_ms": 3.663,
+    "hits": 1294,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_lateral",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 95025,
+      "order_items": 200,
+      "reviews": 125
+    },
+    "exec_ms": 6.596,
+    "hits": 1976,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_lateral",
+      "keyset",
+      "known",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 21700,
+      "reviews": 2025
+    },
+    "exec_ms": 7.284,
+    "hits": 8371,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_lateral",
+      "keyset",
+      "known",
+      0.5,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 200,
+      "reviews": 125
+    },
+    "exec_ms": 0.283,
+    "hits": 551,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E2_skew",
+      "skew100000",
+      "tuned",
+      "page_lateral",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 200,
+      "reviews": 125
+    },
+    "exec_ms": 0.271,
+    "hits": 555,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "global",
+      "offset",
+      "none",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 1000000,
+      "reviews": 600000
+    },
+    "exec_ms": 286.01,
+    "hits": 12002,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "global",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 100000,
+      "order_items": 1000000,
+      "reviews": 600000
+    },
+    "exec_ms": 400.062,
+    "hits": 13785,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "global",
+      "keyset",
+      "known",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 1000000,
+      "reviews": 600000
+    },
+    "exec_ms": 262.568,
+    "hits": 12002,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "global",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 5000,
+      "order_items": 1000000,
+      "reviews": 600000
+    },
+    "exec_ms": 331.816,
+    "hits": 12139,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "page_grouped",
+      "offset",
+      "none",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 1000000,
+      "reviews": 600000
+    },
+    "exec_ms": 104.44,
+    "hits": 12057,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "page_grouped",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 95025,
+      "order_items": 1000000,
+      "reviews": 600000
+    },
+    "exec_ms": 106.061,
+    "hits": 13295,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "page_grouped",
+      "keyset",
+      "known",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 1000000,
+      "reviews": 600000
+    },
+    "exec_ms": 100.605,
+    "hits": 12057,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "page_grouped",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 1000000,
+      "reviews": 600000
+    },
+    "exec_ms": 102.358,
+    "hits": 12057,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "page_lateral",
+      "offset",
+      "none",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 749.693,
+    "hits": 299529,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "page_lateral",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 95025,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 770.024,
+    "hits": 300767,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "page_lateral",
+      "keyset",
+      "known",
+      0,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 758.134,
+    "hits": 299529,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E4_no_index",
+      "noidx100000",
+      "tuned",
+      "page_lateral",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 838.266,
+    "hits": 299529,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "order_items",
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "off"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "0"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E3_default_jit_parallel",
+      "s100000",
+      "default",
+      "global",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 100000,
+      "order_items": 950312,
+      "reviews": 600000
+    },
+    "exec_ms": 483.372,
+    "hits": 943894,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [
+      "reviews"
+    ],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "on"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "2"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E3_default_jit_parallel",
+      "s100000",
+      "default",
+      "global",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 950312,
+      "reviews": 570150
+    },
+    "exec_ms": 389.505,
+    "hits": 1502573,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "on"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "2"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E3_default_jit_parallel",
+      "s100000",
+      "default",
+      "page_grouped",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 95025,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 9.511,
+    "hits": 1879,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "on"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "2"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E3_default_jit_parallel",
+      "s100000",
+      "default",
+      "page_grouped",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.253,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "on"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "2"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E3_default_jit_parallel",
+      "s100000",
+      "default",
+      "page_lateral",
+      "offset",
+      "none",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 95025,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 6.834,
+    "hits": 1879,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "on"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "2"
+      }
+    ]
+  },
+  {
+    "key": [
+      "E3_default_jit_parallel",
+      "s100000",
+      "default",
+      "page_lateral",
+      "keyset",
+      "known",
+      0.95,
+      25
+    ],
+    "scan": {
+      "products": 25,
+      "order_items": 275,
+      "reviews": 150
+    },
+    "exec_ms": 0.286,
+    "hits": 641,
+    "gather": false,
+    "workers": 0,
+    "jit": false,
+    "seq_scans": [],
+    "settings": [
+      {
+        "name": "jit",
+        "setting": "on"
+      },
+      {
+        "name": "max_parallel_workers_per_gather",
+        "setting": "2"
+      }
+    ]
+  }
+]

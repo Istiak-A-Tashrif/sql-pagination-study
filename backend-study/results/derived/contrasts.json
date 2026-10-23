@@ -1,0 +1,58 @@
+[
+  {
+    "variant": "page_grouped",
+    "method": "offset",
+    "service_difference_ms": [
+      -281.17435906666896,
+      -287.02519891416813,
+      -276.88047697750017
+    ],
+    "paired_speed_ratio_global_over_variant": [
+      75.43594287186912,
+      72.93075417709224,
+      78.31516141399489
+    ]
+  },
+  {
+    "variant": "page_lateral",
+    "method": "offset",
+    "service_difference_ms": [
+      -281.2753633666679,
+      -286.9850079670823,
+      -277.0881514641683
+    ],
+    "paired_speed_ratio_global_over_variant": [
+      77.40454098224969,
+      75.16837002861932,
+      79.6930525847881
+    ]
+  },
+  {
+    "variant": "page_grouped",
+    "method": "keyset",
+    "service_difference_ms": [
+      -268.8131444833339,
+      -276.9458868674994,
+      -263.21529027125035
+    ],
+    "paired_speed_ratio_global_over_variant": [
+      543.1209564436081,
+      506.82806044629774,
+      579.6228030918481
+    ]
+  },
+  {
+    "variant": "page_lateral",
+    "method": "keyset",
+    "service_difference_ms": [
+      -268.87821183333205,
+      -277.35391118166143,
+      -263.31450999250364
+    ],
+    "paired_speed_ratio_global_over_variant": [
+      642.0220333996407,
+      584.114356031446,
+      699.429510380449
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "api": {
+    "container_name": "/unibackend-api-1",
+    "image_id": "sha256:47b3628f8d1b116a0ff57bc8f61145ffa24b93c363969a23259ea0ed819eb7a9",
+    "configured_image": "unibackend-api",
+    "state": "exited",
+    "created": "2026-10-21T09:06:36.864692797Z",
+    "version_env": [
+      "NODE_VERSION=22.23.0"
+    ]
+  },
+  "db": {
+    "container_name": "/unibackend-db-1",
+    "image_id": "sha256:3267c505060a0052e5aa6e5175a7b41ab6b04da2f8c4540fc6e98a37210aa2d3",
+    "configured_image": "postgres:17.2-bookworm",
+    "state": "exited",
+    "created": "2026-10-21T09:06:36.773300631Z",
+    "version_env": [
+      "PG_VERSION=17.2-1.pgdg120+1"
+    ]
+  },
+  "redis": {
+    "container_name": "/unibackend-redis-1",
+    "image_id": "sha256:fbdbaea47b9ae4ecc2082ecdb4e1cea81e32176ffb1dcf643d422ad07427e5d9",
+    "configured_image": "redis:7.4.2-bookworm",
+    "state": "exited",
+    "created": "2026-10-21T09:06:36.771879964Z",
+    "version_env": [
+      "REDIS_VERSION=7.4.2"
+    ]
+  },
+  "shared_asset_sha256": {
+    "app/backend/package.json": "b2f917b922e5643fd72f4b7f60e32301b869dc32051992087855c64120ac9b8a",
+    "app/backend/package-lock.json": "3e2b57b61095a76f15409ee84b9c3f20c2383e85ba0dbb7a13950780a5d3a336",
+    "app/generated_test_data_dump.sql": "4b1b76bd84ec97c8622d415c832776300d0e7fe7ff3ad5d487265ee90702dbf5"
+  }
+}

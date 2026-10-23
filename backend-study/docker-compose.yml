@@ -1,0 +1,30 @@
+name: unibackend
+services:
+  db:
+    image: postgres:17.2-bookworm
+    environment:
+      POSTGRES_USER: unibackend
+      POSTGRES_PASSWORD: local-study-only
+      POSTGRES_DB: unibackend
+    command: ["postgres", "-c", "shared_buffers=512MB", "-c", "work_mem=16MB", "-c", "max_parallel_workers_per_gather=0", "-c", "jit=off", "-c", "track_io_timing=on"]
+    ports: ["127.0.0.1:25433:5432"]
+    volumes:
+      - backend-db:/var/lib/postgresql/data
+      - ../app/generated_test_data_dump.sql:/docker-entrypoint-initdb.d/01-base.sql:ro
+      - ./results/raw:/results
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U unibackend -d unibackend"]
+      interval: 2s
+      retries: 120
+  redis:
+    image: redis:7.4.2-bookworm
+    ports: ["127.0.0.1:26380:6379"]
+  api:
+    build: {context: .., dockerfile: backend-study/Dockerfile}
+    ports: ["127.0.0.1:24001:5001"]
+    volumes: ["./results/raw:/results"]
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_started}
+volumes:
+  backend-db:

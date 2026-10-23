@@ -1,0 +1,28 @@
+{
+  "collection": "ext-5f6d293bf2f1",
+  "at": "2026-10-21T13:24:52.838403+00:00",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "macos": "27.0.1",
+  "cpu": "Apple M5",
+  "docker": "29.8.2",
+  "sources": {
+    "Dockerfile": "5a3e6783ed94a09c71632472bbd5a00546fb7f23a86d0242e91b0693b3c8d33e",
+    "build_manifest.py": "52e3308062778bd24402fdfc1b183533c9ef0d0a75147974afc40b7df59516b7",
+    "docker-compose.yml": "12727658714dea89a44e328e0640792d62a7db521ffbb0beae66665308805777",
+    "manifest.json": "7dd8d0ded69a7154410080c71061e2c542631294838c19cfb223ffcc4b32f418",
+    "results-cells.json": "e0bfc99ab8a9dbaac921ce695663d008273b0090e8e85612db2c5c7ddeaa5175",
+    "run.py": "6b5ef4080e3bf7faf4516361152b4b3efc605c5c23759781a752c2aa5076c8c8",
+    "runner.mjs": "77624696be804412cba9d74d5a960f4d4fe3f5e3d91e9fc18daa3dec51e3f182",
+    "src/plans.cjs": "048991a6a7a352f075c0c86fb6faa170bd32d8d2e2c787ca6f0746734321b8d7",
+    "src/prepare.cjs": "3df40af1160f8d86ba3f6f9dd7d7746f088b1da83379eec6942cc14f477211ca",
+    "src/queries.cjs": "5d596623d03d407a17502a7e47b46538339339f373f022ca9fe91eac3a262be5",
+    "src/server.cjs": "63e36ef400d1c8e2b74164723be7c67ff161501c6982e88eb1841d0ddcef959a",
+    "sql/global_keyset.sql": "66696ffd16bf12ed6ba33d4bb39a88cad1f4e34cdc1be73cfa3a1f38dd006cb8",
+    "sql/global_offset.sql": "54c7ad9848a55917296c62396bf480df2931500d0a63fec4b8b04737aa850200",
+    "sql/page_grouped_keyset.sql": "7edbd662281d413b76a43341800791475e797b882102034d80ba7a0583680fd8",
+    "sql/page_grouped_offset.sql": "72148a9f7c3ce64ad50f9361cf663516128738e5e57511b6a336cdf292ab22b3",
+    "sql/page_lateral_keyset.sql": "0cad6b42850a0c567f9eff5074faa0d5ad401287258762b1fc179df8405e70c0",
+    "sql/page_lateral_offset.sql": "6e23d3ca56a86510551b48d6b5b4284173ecd20e166eea9880b5eea89dab7eb2"
+  },
+  "git_commit": "5c40c3ca155471d88275fa7c02f96a8f6f1d9e81"
+}
