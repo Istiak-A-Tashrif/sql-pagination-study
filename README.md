@@ -1,9 +1,11 @@
 # SQL aggregate placement and pagination study
 
+[![DOI](https://zenodo.org/badge/1431459604.svg)](https://doi.org/10.5281/zenodo.23603487)
+
 
 Code, frozen protocol, SQL, raw measurements, query plans and analysis for a controlled experiment on how aggregate-query design interacts with OFFSET and known-cursor keyset pagination in a PostgreSQL-backed product-report API (PostgreSQL 17.2, Redis 7.4.2, Node.js).
 
-The associated manuscript is unpublished. The Zenodo archive DOI is added with the first release.
+The associated manuscript is unpublished. Archived on Zenodo (all versions): https://doi.org/10.5281/zenodo.23603487
 
 ## Contents
 
@@ -34,6 +36,6 @@ Code is MIT licensed (see `LICENSE`).
 
 If you use this artifact, please cite the Zenodo archive of the release you used:
 
-> Tashrif, I. A. (2026). Research artifact: SQL aggregate placement and pagination study [Software and data]. Zenodo.
+> Tashrif, I. A. (2026). Research artifact: SQL aggregate placement and pagination study (v1.0.0) [Software and data]. Zenodo. https://doi.org/10.5281/zenodo.23603487
 
 Repository: https://github.com/Istiak-A-Tashrif/sql-pagination-study-artifact
